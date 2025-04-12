@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Часто задаваемые вопросы</title>
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Часто задаваемые вопросы</h1>
+	</header>
+  <main>
+    <section class="faq-container">
+      <div class="faq-item">
+        <div class="question">Что такое HTML?</div>
+        <div class="answer">HTML (HyperText Markup Language) — это язык разметки, используемый для создания структуры веб-страниц.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">Что такое CSS?</div>
+        <div class="answer">CSS (Cascading Style Sheets) — это язык стилей, который используется для описания внешнего вида HTML-элементов.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">Как сделать сайт адаптивным?</div>
+        <div class="answer">Для создания адаптивных сайтов используется медиазапросы в CSS, чтобы элементы страницы корректно отображались на устройствах с разными размерами экранов.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">Что такое JavaScript?</div>
+        <div class="answer">JavaScript — это язык программирования, который позволяет добавлять интерактивность на веб-страницы, например, обработку кликов, анимации и взаимодействие с пользователем.</div>
+      </div>
+	      	 <div class="faq-item">
+	        <div class="question">Что такое JSON?</div>
+	        <div class="answer">JSON (JavaScript Object Notation) — это формат передачи данных, который используется при взаимодействии веб-сервера и браузера</div>
+		      	</div>
+		      	 <div class="faq-item">
+		        <div class="question">Что такое lua?</div>
+		        <div class="answer"></div>
+			      	</div>
+			      	 <div class="faq-item">
+			        <div class="question">Что такое CSS?</div>
+			        <div class="answer">CSS (Cascading Style Sheets) — это язык стилей, который используется для описания внешнего вида HTML-элементов.</div>
+      				</div>
+					      	 <div class="faq-item">
+					        <div class="question">Что такое CSS?</div>
+					        <div class="answer">CSS (Cascading Style Sheets) — это язык стилей, который используется для описания внешнего вида HTML-элементов.</div>
+					      </div>
+      	 <div class="faq-item">
+        <div class="question">Что такое CSS?</div>
+        <div class="answer">CSS (Cascading Style Sheets) — это язык стилей, который используется для описания внешнего вида HTML-элементов.</div>
+      </div>
+    </section>
+  </main>
+		<footer>
+			<p>разработчик:арина</p>
+		</footer>
+			<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const faqItems = document.querySelectorAll('.faq-item');
+
+      faqItems.forEach(item => {
+        item.querySelector('.question').addEventListener('click', () => {
+          item.classList.toggle('open');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
